@@ -21,7 +21,7 @@
     mkdir .platform/nginx/conf.d/elasticbeanstalk/
     ```
 
-2.  Save following `nginx.conf` to .platform/nginx/. The configuration file added mapping $status to $logflag, and change the http code from 101 to 0.
+2. Save following `nginx.conf` to .platform/nginx/. The configuration file added mapping $status to $logflag, and change the http code from 101 to 0.
 
     ```bash
     cat <<EoF > .platform/nginx/nginx.conf
